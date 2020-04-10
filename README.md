@@ -1,5 +1,6 @@
 # Curso de Programación Básica con PLATZI
-Programacion Basica
+Programacion Basica 
+  
   Primer Proyecto: Peso en otro planeta
 
 
