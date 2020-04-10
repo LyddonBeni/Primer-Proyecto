@@ -19,16 +19,15 @@
   <body>
     <h1>Tu peso en Otro Planeta</h1>
     <p>En la tierra pesas distintos que en otros planetas: </p>
-    <script>
+    <script type="text/javascript">
     var peso_usuario = parseFloat(prompt("Cual es tu peso en Kg"))
     var planeta = prompt("Elige el planeta \n 1 es martes \n 2 es jupiter")
-        // parseFloat = Convierte una variable a tipo flotante
     var g_tierra = 9.807;
     var g_marte = 3.7;
     var g_jupiter = 24.8;
     var peso_final;
     var n_Planeta;
-    // Condicional If
+      // Condicional If
     if (planeta == 1)
     {
         peso_final=peso_usuario* g_marte / g_tierra;
@@ -44,7 +43,6 @@
         p_final="No existe"
         n_Planeta="este planeta"
     }
-
         document.write("Tu peso en " +n_Planeta+ " es: <strong> "+peso_final+" kg </strong>")
     </script>
   </body>
