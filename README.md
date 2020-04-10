@@ -2,7 +2,7 @@
 Programacion Basica
 
   Primer Proyecto: Peso en otro planeta
-  SegundoProyecto: Dibujando en canvas
+  \n SegundoProyecto: Dibujando en canvas
 
 
 [Visita mi Sitio Web](https://sites.google.com/view/lyddonbeni/p%C3%A1gina-principal?read_current=1)
