@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title>Tu peso en otro planeta</title>
+    <style>
+      body
+      {
+        background-color: rgba(34, 235, 90, 0.49);
+        font-family: Helvetica;
+      }
+      h1
+      {
+        color: rgb(23, 19, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tu peso en Marte</h1>
+    <p>En la tierra pesas distintos si pesas 80kg en marte pesarias: </p>
+    <script>
+    var g_tierra = 9.807;
+    var g_marte = 3.7;
+    var p_marte;
+    var peso = 80;
+    p_marte = peso * g_marte / g_tierra;
+    p_marte = parseInt(p_marte);
+      // parseInt = Convierte una variable a tipo entero
+    document.write(p_marte+" kg")
+    </script>
+  </body>
+</html>

@@ -16,18 +16,19 @@
     </style>
   </head>
   <body>
-    <h1>Tu peso en Marte</h1>
-    <p>En la tierra pesas distintos si pesas 80kg en marte pesarias: </p>
+    <h1>Tu peso en Jupiter</h1>
+    <p>En la tierra pesas distintos que en otros planetas: </p>
     <script>
+    var p_usuario = prompt("Cual es tu peso en Kg")
+    var peso = parseFloat(p_usuario);
+        // parseInt = Convierte una variable a tipo flotante
     var g_tierra = 9.807;
     var g_marte = 3.7;
     var g_jupiter = 24.8;
-    var peso = 80;
     var p_marte;
-    p_marte = peso * g_marte / g_tierra;
-    p_marte = parseInt(p_marte);
-    "parseInt = Convierte una variable de tipo flotante a tipo entero"
-    document.write(p_marte+" kg")
+    var p_jupiter;
+    p_jupiter = peso * g_jupiter  / g_tierra;
+    document.write("Tu peso en Jupiter es <strong> "+p_jupiter+" kg </strong>")
     </script>
   </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title>Tu peso en otro planeta</title>
+    <style>
+      body
+      {
+        background-color: rgba(34, 235, 90, 0.49);
+        font-family: Helvetica;
+      }
+      h1
+      {
+        color: rgb(23, 19, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tu peso en Otro Planeta</h1>
+    <p>En la tierra pesas distintos que en otros planetas: </p>
+    <script>
+    var p_usuario = prompt("Cual es tu peso en Kg")
+    var planeta = prompt("Elige el planeta 1 es martes, 2 es jupiter")
+    var peso = parseFloat(p_usuario);
+      // parseInt = Convierte una variable a tipo flotante
+    var g_tierra = 9.807;
+    var g_marte = 3.7;
+    var g_jupiter = 24.8;
+    var p_marte;
+    var p_jupiter;
+    p_jupiter = peso * g_jupiter  / g_tierra;
+        document.write("Tu peso en Jupiter es <strong> "+p_jupiter+" kg </strong>")
+    </script>
+  </body>
+</html>
