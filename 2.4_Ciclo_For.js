@@ -1,8 +1,8 @@
-var d = document.getElementById("dibujito");
+var d = document.getElementById("plano");
 var ancho = d.width;
 var lienzo = d.getContext("2d");
 var texto = document.getElementById("numero_lineas");
-var boton = document.getElementById("botoncito");
+var boton = document.getElementById("boton");
 boton.addEventListener("click", dibujoPorClick );
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
@@ -24,12 +24,16 @@ function dibujoPorClick()
   var espacio = ancho / lineas;
 
   for(l = 0; l < lineas; l++)
+  // for tien2 3 parametros
+  // 1° Declara la variable a iterar
+  // 2° Condicion de la variable
+  // 3° Agregamos el ciclo
   {
     yi = espacio * l;
     xf = espacio * (l + 1);
     dibujarLinea(colorcito, 0, yi, xf, 300);
     //esta linea de codigo verifica el numere de vesces dubujada la linea
-    console.log("Linea " + l);
+    console.log("Lineas" + l);
   }
 
   dibujarLinea(colorcito, 1,1,1,299);
