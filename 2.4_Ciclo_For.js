@@ -24,7 +24,7 @@ function dibujoPorClick()
   var espacio = ancho / lineas;
 
   for(l = 0; l < lineas; l++)
-  // for tien2 3 parametros
+  // for tiene 3 parametros
   // 1° Declara la variable a iterar
   // 2° Condicion de la variable
   // 3° Agregamos el ciclo
@@ -32,7 +32,7 @@ function dibujoPorClick()
     yi = espacio * l;
     xf = espacio * (l + 1);
     dibujarLinea(colorcito, 0, yi, xf, 300);
-    //esta linea de codigo verifica el numere de vesces dubujada la linea
+    //esta linea de codigo verifica el numere de vesces dibujada la linea
     console.log("Lineas" + l);
   }
 
